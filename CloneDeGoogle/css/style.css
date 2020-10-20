@@ -4,3 +4,176 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+  }
+header{
+    width: 100%;
+}
+header nav{
+    margin-top: 1.5rem;
+}
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+header nav ul li{
+    padding-right: 1.5rem;
+    font-size: 1.4rem;
+    font-family: arial,sans-serif;
+}
+header nav ul li a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header nav img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+ul, ol {
+    list-style:none;
+}
+header nav .botonInicioSesion{
+    background-color: #4683ea;
+    font-size: 1.3rem;
+    color: white;
+    font-family: arial,sans-serif;
+    font-weight: bold;
+    width: 10.909rem;
+    height: 3rem;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+main{
+    width: 100%;
+    text-align: center;
+}
+
+main .logoGoogle{
+    width: 27.2rem;
+    height: 20.1rem;
+    padding-top: 10.9rem;
+}
+main .main-input{
+    width: auto;
+    margin: 1.5rem auto;
+    display: flex;
+    justify-content: center ;
+}
+main .main-input-container{
+    width: 58.4rem;
+    height: 4.6rem;
+    border: 0.1rem solid #e5e7ea ;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center ;
+}
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+    opacity: 0.4;
+}
+main .main-input .micro-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+main .main-input-container input{
+    width: 50rem;
+    height: 4.4rem;
+    border: none;
+    outline: none;
+    padding: 1rem 2rem;
+}
+main .main-buttons{
+    padding-top: 4rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main .main-buttons button{
+    width: 15rem;
+    height: 3.3rem;
+    margin-right: 2rem;
+    border: 0rem;
+    color: #5F6368;
+    background-color: #f2f2f2;
+    outline: none;
+    cursor: pointer;
+}
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 0.5px 0.5px #5F6368;
+    color: #000000;
+}
+footer{
+    font-family: arial,sans-serif;
+    font-size: 1.4rem;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    color: rgba(0,0,0,.6);
+}
+footer .banner-pais{
+    width: 100%;
+    height: 4rem;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    border-bottom: 1px solid #ced4da;
+    font-size: 1.5rem;
+}
+footer .banner-sobreGoogle{
+    width: 100%;
+    height: 4rem;
+    background-color: #f2f2f2;
+    padding-left: 3rem;    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+footer .banner-sobreGoogle__right{
+    justify-self: right;
+}
+footer .banner-sobreGoogle ul{
+    display: flex;
+    flex-direction: row;
+}
+footer .banner-sobreGoogle ul li{
+    padding-right: 2.8rem;
+}
+footer .banner-sobreGoogle ul li a{
+    color: rgba(0,0,0,.6);    
+    text-decoration: none;
+}
+
+
+@media(min-width: 600px){
+
+    header nav{
+        margin: 2.5rem;
+    }
+    header nav ul{
+        justify-content: flex-end;
+    }
+
+}
